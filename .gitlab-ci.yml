@@ -16,4 +16,7 @@ test:
   stage: build
   image: maven:3.6.2-jdk-11
   script:
-    mvn package
+    - ls ~/.m2/
+    - mvn package
+    - ls ~/.m2/
+    
