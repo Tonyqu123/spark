@@ -18,4 +18,8 @@ test:
   script:
     - mvn package
     - ls ~/.m2/
+  cache:
+    key: maven-m2
+    paths:
+      - ~/.m2/
     
